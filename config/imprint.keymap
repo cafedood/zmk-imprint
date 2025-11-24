@@ -29,8 +29,8 @@
  *      &kp N1    &kp N2   &kp N3                    &kp N1   &kp N2  &kp N3
  *      &kp N4    &kp N5   &kp N6                    &kp N4   &kp N5  &kp N6
  */
-                   &mo 1           &lt 2 SPACE   &kp LCLK              &mkp LCLK  &lt 2 SPACE  &mo 1 
-                   &mt LCMD RET    &kp SPACE     &kp RCLK              &mkp RCLK  &kp SPACE    &mt RCMD RET
+                   &mo 1           &lt 2 SPACE   &mkp LCLK              &mkp LCLK  &lt 2 SPACE  &mo 1 
+                   &mt LCMD RET    &kp SPACE     &mkp RCLK              &mkp RCLK  &kp SPACE    &mt RCMD RET
 
         >; };
 
