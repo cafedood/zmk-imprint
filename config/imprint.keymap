@@ -29,8 +29,8 @@
  *      &kp N1    &kp N2   &kp N3                    &kp N1   &kp N2  &kp N3
  *      &kp N4    &kp N5   &kp N6                    &kp N4   &kp N5  &kp N6
  */
-                 &mt LCMD RET   &mo 1   &lt 2 SPACE   &kp LCLK              &mkp LCLK  &lt 2 SPACE  &mo 1  &mt RCMD RET
-                                        &kp SPACE     &kp RCLK              &mkp RCLK  &kp SPACE  
+                   &mo 1           &lt 2 SPACE   &kp LCLK              &mkp LCLK  &lt 2 SPACE  &mo 1 
+                   &mt LCMD RET    &kp SPACE     &kp RCLK              &mkp RCLK  &kp SPACE    &mt RCMD RET
 
         >; };
 
@@ -46,8 +46,8 @@
 
 &trans   &trans      &trans      &trans        &trans                                           &trans         &trans            &trans           &trans           &trans
                            
-                     &trans      &mo 2   &trans    &trans        &trans  &trans  &mo 2   &trans
-                                         &trans    &trans        &trans  &trans 
+                       &mo 2   &trans    &trans        &trans  &trans  &mo 2 
+                       &trans  &trans    &trans        &trans  &trans  &trans
 
         >; };
 
@@ -62,8 +62,8 @@
 
 &trans   &trans      &trans      &trans        &trans                                           &trans         &trans            &trans           &trans           &trans
 
-                           &trans   &mo 3   &trans   &trans                             &trans  &trans  &mo 3   &trans
-                                            &trans   &trans                             &trans  &trans 
+                           &mo 3    &trans   &trans                             &trans  &trans  &mo 3 
+                           &trans   &trans   &trans                             &trans  &trans  &trans
 
 
         >; };
@@ -79,8 +79,8 @@
 
 &trans    &trans          &trans           &trans              &trans                                                             &trans         &trans     &trans    &trans    &trans
 
-                    &trans  &mo 4   &trans   &trans                                    &trans  &trans  &mo 4   &trans
-                                    &trans   &trans                                    &trans  &trans 
+                     &mo 4   &trans   &trans                                    &trans  &trans  &mo 4  
+                     &trans  &trans   &trans                                    &trans  &trans  &trans
             
         >; };
 
